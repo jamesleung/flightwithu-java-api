@@ -1,0 +1,10 @@
+org/leung/ttsprj/model/pojo/aircraft.class
+org/leung/ttsprj/service/AircraftInfoService.class
+org/leung/ttsprj/consumer/SimpleListener.class
+org/leung/ttsprj/config/RedisConfig.class
+org/leung/ttsprj/model/resp.class
+org/leung/ttsprj/controller/controller/text2voice.class
+org/leung/ttsprj/ApplicationStartup.class
+org/leung/ttsprj/controller/controller/mytest.class
+org/leung/ttsprj/controller/mycontroller.class
+org/leung/ttsprj/model/AircraftInfo.class

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ttsapi/ttsapi.iml" filepath="$PROJECT_DIR$/ttsapi/ttsapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ttsprj.iml" filepath="$PROJECT_DIR$/ttsprj.iml" />
+    </modules>
+  </component>
+</project>

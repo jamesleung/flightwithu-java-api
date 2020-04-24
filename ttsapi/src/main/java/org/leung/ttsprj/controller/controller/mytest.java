@@ -3,9 +3,9 @@ package org.leung.ttsprj.controller.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+//@Controller
 public class mytest {
-    @RequestMapping(value="/helo3")
+    //@RequestMapping(value="/helo3")
     public String getResponse() {
         return "成功";
     }

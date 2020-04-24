@@ -1,4 +1,4 @@
-package org.leung.ttsprj;
+package org.leung.ttsprj.controller.controller;
 
 import com.baidu.aip.speech.AipSpeech;
 import com.baidu.aip.speech.TtsResponse;
@@ -79,7 +79,7 @@ public class text2voice {
 
      */
     @RequestMapping(value = "/getflight")
-    public String getFlightInfo(@RequestParam(value = "no") String flightNo) {
-        return aircraftInfoService.getAircraft(flightNo);
+    public String getFlightInfo(@RequestParam(value = "no") String flightNo, @RequestParam(value = "i", defaultValue = "0") int index) {
+        return aircraftInfoService.getAircraft(flightNo, index);
     }
 }
